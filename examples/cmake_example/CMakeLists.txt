@@ -21,7 +21,7 @@ endif()
 set(FREERTOS_HEAP "4" CACHE STRING "" FORCE)
 
 # Select the native compile PORT
-set(FREERTOS_PORT "TEMPLATE" CACHE STRING "" FORCE)
+set(FREERTOS_PORT "MSVC_MINGW" CACHE STRING "" FORCE)
 
 # Adding the FreeRTOS-Kernel subdirectory
 add_subdirectory(${FREERTOS_KERNEL_PATH} FreeRTOS-Kernel)

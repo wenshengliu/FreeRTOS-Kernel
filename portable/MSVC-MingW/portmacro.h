@@ -36,7 +36,7 @@
 #endif
 
 #include <windows.h>
-#include <timeapi.h>
+/*#include <timeapi.h>*/
 #include <mmsystem.h>
 #include <winbase.h>
 

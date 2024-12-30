@@ -56,6 +56,7 @@ static void exampleTask( void * parameters )
 
     for( ; ; )
     {
+        printf( "Example task running!\n" );
         /* Example Task Code */
         vTaskDelay( 100 ); /* delay 100 ticks */
     }
